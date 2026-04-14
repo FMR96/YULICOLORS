@@ -7,6 +7,7 @@ import { ResultsSection } from "@/components/results-section"
 import { FeaturesSection } from "@/components/features-section"
 import { TestimonialsSection } from "@/components/testimonials-section"
 import { CTASection } from "@/components/cta-section"
+import { BlogPreviewSection } from "@/components/blog-preview-section"
 import { InstagramSection } from "@/components/instagram-section"
 import { ContactSection } from "@/components/contact-section"
 import { Footer } from "@/components/footer"
@@ -24,6 +25,7 @@ export default function Home() {
       <FeaturesSection />
       <TestimonialsSection />
       <CTASection />
+      <BlogPreviewSection />
       <InstagramSection />
       <ContactSection />
       <Footer />

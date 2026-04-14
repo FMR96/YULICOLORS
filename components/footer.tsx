@@ -68,12 +68,13 @@ export function Footer() {
             </h4>
             <nav className="flex flex-col gap-3">
               {[
-                { href: "#inicio", label: "Inicio" },
-                { href: "#nosotros", label: "Nosotros" },
-                { href: "#servicios", label: "Tratamientos" },
-                { href: "#resultados", label: "Resultados" },
-                { href: "#testimonios", label: "Testimonios" },
-                { href: "#contacto", label: "Contacto" },
+                { href: "/#inicio", label: "Inicio" },
+                { href: "/#nosotros", label: "Nosotros" },
+                { href: "/#servicios", label: "Tratamientos" },
+                { href: "/#resultados", label: "Resultados" },
+                { href: "/#testimonios", label: "Testimonios" },
+                { href: "/blog", label: "Blog" },
+                { href: "/#contacto", label: "Contacto" },
               ].map((link) => (
                 <Link
                   key={link.href}

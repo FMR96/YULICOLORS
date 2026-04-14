@@ -29,12 +29,13 @@ export function Navbar() {
   }, [isMobileMenuOpen])
 
   const navLinks = [
-    { href: "#inicio", label: "Inicio" },
-    { href: "#nosotros", label: "Nosotros" },
-    { href: "#servicios", label: "Servicios" },
-    { href: "#resultados", label: "Resultados" },
-    { href: "#testimonios", label: "Testimonios" },
-    { href: "#contacto", label: "Contacto" },
+    { href: "/#inicio", label: "Inicio" },
+    { href: "/#nosotros", label: "Nosotros" },
+    { href: "/#servicios", label: "Servicios" },
+    { href: "/#resultados", label: "Resultados" },
+    { href: "/#testimonios", label: "Testimonios" },
+    { href: "/blog", label: "Blog" },
+    { href: "/#contacto", label: "Contacto" },
   ]
 
   return (
@@ -85,7 +86,7 @@ export function Navbar() {
               asChild
               className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-none px-8 py-5 text-xs tracking-[0.2em] uppercase transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5"
             >
-              <Link href="#contacto">Reservar Cita</Link>
+              <Link href="/#contacto">Reservar Cita</Link>
             </Button>
           </div>
 
