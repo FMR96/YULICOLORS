@@ -141,10 +141,13 @@ export function Footer() {
             © {new Date().getFullYear()} YULI COLORS. Todos los derechos reservados.
           </p>
           <div className="flex gap-6">
-            <Link href="#" className="text-card/30 hover:text-primary/70 transition-colors text-xs tracking-wide">
+            <Link href="/privacidad" className="text-card/30 hover:text-primary/70 transition-colors text-xs tracking-wide">
               Política de Privacidad
             </Link>
-            <Link href="#" className="text-card/30 hover:text-primary/70 transition-colors text-xs tracking-wide">
+            <Link href="/cookies" className="text-card/30 hover:text-primary/70 transition-colors text-xs tracking-wide">
+              Política de Cookies
+            </Link>
+            <Link href="/aviso-legal" className="text-card/30 hover:text-primary/70 transition-colors text-xs tracking-wide">
               Aviso Legal
             </Link>
           </div>

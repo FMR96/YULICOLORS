@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from 'next'
 import { Inter, Cormorant_Garamond } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
+import { CookieBanner } from '@/components/cookie-banner'
 import './globals.css'
 
 const inter = Inter({ 
@@ -53,6 +54,7 @@ export default function RootLayout({
     <html lang="es" className={`${inter.variable} ${cormorant.variable} bg-background`}>
       <body className="font-sans antialiased">
         {children}
+        <CookieBanner />
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
     </html>
