@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import { notFound } from "next/navigation"
 import Image from "next/image"
 import Link from "next/link"
+import { Navbar } from "@/components/navbar"
 import { getAllPosts, getPostBySlug, getLatestPosts, formatDate } from "@/lib/blog"
 
 interface Props {
@@ -41,6 +42,7 @@ export default async function BlogPostPage({ params }: Props) {
 
   return (
     <main className="min-h-screen bg-background pt-20">
+      <Navbar />
 
       {/* Hero image */}
       <div className="relative aspect-[16/6] w-full overflow-hidden">

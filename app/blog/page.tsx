@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import Image from "next/image"
 import Link from "next/link"
+import { Navbar } from "@/components/navbar"
 import { getAllPosts, formatDate } from "@/lib/blog"
 
 export const metadata: Metadata = {
@@ -14,6 +15,7 @@ export default function BlogPage() {
 
   return (
     <main className="min-h-screen bg-background pt-24">
+      <Navbar />
 
       {/* Hero header */}
       <section className="py-20 lg:py-28 bg-muted border-b border-border">
