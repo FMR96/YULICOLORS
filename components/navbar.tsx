@@ -41,8 +41,8 @@ export function Navbar() {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-        isScrolled
-          ? "bg-background/95 backdrop-blur-md shadow-sm border-b border-border/50"
+        isScrolled || isMobileMenuOpen
+          ? "bg-background shadow-sm border-b border-border/50"
           : "bg-transparent"
       }`}
     >
@@ -57,7 +57,7 @@ export function Navbar() {
               width={140}
               height={48}
               className={`h-10 md:h-11 w-auto transition-all duration-500 ${
-                isScrolled ? "invert" : ""
+                isScrolled || isMobileMenuOpen ? "invert" : ""
               }`}
               priority
             />
@@ -94,7 +94,7 @@ export function Navbar() {
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             className={`lg:hidden p-2 transition-colors duration-300 ${
-              isScrolled ? "text-foreground" : "text-card"
+              isScrolled || isMobileMenuOpen ? "text-foreground" : "text-card"
             }`}
             aria-label={isMobileMenuOpen ? "Cerrar menú" : "Abrir menú"}
           >
@@ -105,10 +105,10 @@ export function Navbar() {
 
       {/* Mobile Menu — full overlay */}
       <div
-        className={`lg:hidden fixed inset-0 top-20 bg-background/98 backdrop-blur-md transition-all duration-400 ${
+        className={`lg:hidden fixed inset-0 top-20 bg-background transition-all duration-300 ${
           isMobileMenuOpen
-            ? "opacity-100 pointer-events-auto"
-            : "opacity-0 pointer-events-none"
+            ? "opacity-100 pointer-events-auto translate-y-0"
+            : "opacity-0 pointer-events-none -translate-y-2"
         }`}
       >
         <div className="flex flex-col h-full px-8 pt-10 pb-12 gap-0">
