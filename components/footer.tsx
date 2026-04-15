@@ -48,7 +48,7 @@ export function Footer() {
               </Link>
               {/* WhatsApp */}
               <Link
-                href="https://wa.me/34912345678?text=Hola,%20me%20gustaría%20reservar%20una%20cita%20en%20YULI%20COLORS"
+                href="https://wa.me/34622886878?text=Hola,%20me%20gustaría%20reservar%20una%20cita%20en%20YULI%20COLORS"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 flex items-center justify-center border border-card/15 hover:border-[#25D366] hover:text-[#25D366] transition-all duration-300"
@@ -111,18 +111,18 @@ export function Footer() {
               Contacto
             </h4>
             <div className="space-y-3 text-sm text-card/50">
-              <p>Calle Elegancia 123<br />Madrid, España 28001</p>
-              <p>Lun – Vie: 9:00 – 20:00<br />Sáb: 10:00 – 14:00</p>
-              <a href="tel:+34912345678" className="hover:text-primary transition-colors block">
-                +34 912 345 678
+              <p>Camas, Sevilla</p>
+              <p>Lun – Vie: 10:00 – 20:00<br />Sáb: 10:00 – 15:00</p>
+              <a href="tel:+34622886878" className="hover:text-primary transition-colors block">
+                622 886 878
               </a>
-              <a href="mailto:info@yulicolors.com" className="hover:text-primary transition-colors block">
-                info@yulicolors.com
+              <a href="mailto:hola@yulicolors.es" className="hover:text-primary transition-colors block">
+                hola@yulicolors.es
               </a>
             </div>
 
             <Link
-              href="https://wa.me/34912345678?text=Hola,%20me%20gustaría%20reservar%20una%20cita%20en%20YULI%20COLORS"
+              href="https://wa.me/34622886878?text=Hola,%20me%20gustaría%20reservar%20una%20cita%20en%20YULI%20COLORS"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 mt-6 text-[11px] tracking-[0.15em] uppercase text-[#25D366]/70 hover:text-[#25D366] transition-colors duration-300"

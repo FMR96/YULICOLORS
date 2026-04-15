@@ -18,7 +18,7 @@ interface Category {
 }
 
 const WA_BASE =
-  "https://wa.me/34912345678?text=Hola,%20me%20interesa%20el%20tratamiento%20de%20"
+  "https://wa.me/34622886878?text=Hola,%20me%20interesa%20el%20tratamiento%20de%20"
 
 const categories: Category[] = [
   {
@@ -272,7 +272,7 @@ export function ServicesSection() {
               </div>
               <div className="flex lg:justify-end lg:items-start">
                 <Link
-                  href={`https://wa.me/34912345678?text=Hola,%20me%20gustaría%20saber%20más%20sobre%20los%20tratamientos%20de%20${encodeURIComponent(activeCategory.label)}%20en%20YULI%20COLORS`}
+                  href={`https://wa.me/34622886878?text=Hola,%20me%20gustaría%20saber%20más%20sobre%20los%20tratamientos%20de%20${encodeURIComponent(activeCategory.label)}%20en%20YULI%20COLORS`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 border border-border text-foreground/60 hover:border-primary hover:text-primary px-6 py-3 text-xs tracking-[0.15em] uppercase transition-all duration-300 hover:-translate-y-0.5 self-start"
@@ -367,7 +367,7 @@ export function ServicesSection() {
               Solicitar Valoración
             </Link>
             <Link
-              href="https://wa.me/34912345678?text=Hola,%20me%20gustaría%20que%20me%20asesorasen%20sobre%20los%20tratamientos%20de%20YULI%20COLORS"
+              href="https://wa.me/34622886878?text=Hola,%20me%20gustaría%20que%20me%20asesorasen%20sobre%20los%20tratamientos%20de%20YULI%20COLORS"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2.5 border border-foreground/20 text-foreground/60 hover:border-[#25D366] hover:text-[#25D366] px-8 py-4 text-xs tracking-[0.2em] uppercase transition-all duration-300 hover:-translate-y-0.5"

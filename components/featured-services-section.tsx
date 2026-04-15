@@ -4,7 +4,7 @@ import Link from "next/link"
 import { useInView } from "@/hooks/use-in-view"
 
 const WA_BASE =
-  "https://wa.me/34912345678?text=Hola,%20me%20interesa%20el%20tratamiento%20de%20"
+  "https://wa.me/34622886878?text=Hola,%20me%20interesa%20el%20tratamiento%20de%20"
 
 const heroCards = [
   {

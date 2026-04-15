@@ -54,7 +54,7 @@ export function CTASection() {
 
             {/* WhatsApp */}
             <Link
-              href="https://wa.me/34912345678?text=Hola,%20me%20gustaría%20reservar%20una%20cita%20en%20YULI%20COLORS"
+              href="https://wa.me/34622886878?text=Hola,%20me%20gustaría%20reservar%20una%20cita%20en%20YULI%20COLORS"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-2.5 bg-[#25D366] text-white hover:bg-[#1fb85a] rounded-none px-10 py-[1.625rem] text-xs tracking-[0.2em] uppercase transition-all duration-300 hover:shadow-xl hover:-translate-y-0.5 w-full sm:w-auto"

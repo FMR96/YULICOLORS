@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 const WA_LINK =
-  "https://wa.me/34912345678?text=Hola,%20me%20gustaría%20reservar%20una%20cita%20en%20YULI%20COLORS"
+  "https://wa.me/34622886878?text=Hola,%20me%20gustaría%20reservar%20una%20cita%20en%20YULI%20COLORS"
 
 export default async function BlogPostPage({ params }: Props) {
   const { slug } = await params

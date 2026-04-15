@@ -133,7 +133,7 @@ export function Navbar() {
               </Link>
             </Button>
             <Link
-              href="https://wa.me/34912345678?text=Hola,%20me%20gustaría%20reservar%20una%20cita%20en%20YULI%20COLORS"
+              href="https://wa.me/34622886878?text=Hola,%20me%20gustaría%20reservar%20una%20cita%20en%20YULI%20COLORS"
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => setIsMobileMenuOpen(false)}

@@ -111,7 +111,7 @@ export function ResultsSection() {
               <Link href="#contacto">Reservar Cita</Link>
             </Button>
             <Link
-              href="https://wa.me/34912345678?text=Hola,%20vi%20vuestros%20resultados%20y%20me%20gustaría%20reservar%20una%20cita"
+              href="https://wa.me/34622886878?text=Hola,%20vi%20vuestros%20resultados%20y%20me%20gustaría%20reservar%20una%20cita"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2.5 border border-foreground/30 text-foreground/70 hover:border-primary hover:text-primary rounded-none px-10 py-[1.4rem] text-xs tracking-[0.2em] uppercase transition-all duration-300 hover:-translate-y-0.5"

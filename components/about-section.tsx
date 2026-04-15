@@ -89,7 +89,7 @@ export function AboutSection() {
             {/* Mid-section WhatsApp CTA */}
             <div className="mt-10">
               <Link
-                href="https://wa.me/34912345678?text=Hola,%20me%20gustaría%20solicitar%20más%20información%20sobre%20los%20tratamientos%20de%20YULI%20COLORS"
+                href="https://wa.me/34622886878?text=Hola,%20me%20gustaría%20solicitar%20más%20información%20sobre%20los%20tratamientos%20de%20YULI%20COLORS"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2.5 text-xs tracking-[0.2em] uppercase text-foreground/70 hover:text-primary transition-colors duration-300 group"

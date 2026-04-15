@@ -5,7 +5,10 @@ import Link from "next/link"
 import { useInView } from "@/hooks/use-in-view"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
-import { MapPin, Clock, Phone, Mail, CheckCircle2 } from "lucide-react"
+import { MapPin, Clock, Phone, Mail, CheckCircle2, Instagram, Facebook } from "lucide-react"
+
+const WA_NUMBER = "34622886878"
+const WA_LINK = `https://wa.me/${WA_NUMBER}?text=Hola,%20me%20gustaría%20reservar%20una%20cita%20en%20YULI%20COLORS`
 
 const services = [
   "Rituales Faciales Personalizados",
@@ -21,22 +24,24 @@ const contactInfo = [
   {
     icon: MapPin,
     label: "Ubicación",
-    lines: ["Calle Elegancia 123, Centro", "Madrid, España 28001"],
+    lines: ["Camas, Sevilla"],
   },
   {
     icon: Clock,
     label: "Horario",
-    lines: ["Lunes – Viernes: 9:00 – 20:00", "Sábados: 10:00 – 14:00"],
+    lines: ["Lunes – Viernes: 10:00 – 20:00", "Sábados: 10:00 – 15:00"],
   },
   {
     icon: Phone,
-    label: "Teléfono",
-    lines: ["+34 912 345 678"],
+    label: "Teléfono / WhatsApp",
+    lines: ["622 886 878"],
+    href: "tel:+34622886878",
   },
   {
     icon: Mail,
     label: "Email",
-    lines: ["info@yulicolors.com"],
+    lines: ["hola@yulicolors.es"],
+    href: "mailto:hola@yulicolors.es",
   },
 ]
 
@@ -90,7 +95,7 @@ export function ContactSection() {
 
             {/* WhatsApp — primary CTA */}
             <Link
-              href="https://wa.me/34912345678?text=Hola,%20me%20gustaría%20reservar%20una%20cita%20en%20YULI%20COLORS"
+              href="https://wa.me/34622886878?text=Hola,%20me%20gustaría%20reservar%20una%20cita%20en%20YULI%20COLORS"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 bg-[#25D366] text-white hover:bg-[#1fb85a] px-8 py-4 text-xs tracking-[0.2em] uppercase transition-all duration-300 hover:shadow-xl hover:-translate-y-0.5 mb-12 rounded-none"
@@ -112,14 +117,50 @@ export function ContactSection() {
                     <p className="text-xs tracking-[0.15em] uppercase text-foreground/50 mb-1.5">
                       {item.label}
                     </p>
-                    {item.lines.map((line) => (
-                      <p key={line} className="text-sm text-foreground/80 leading-snug">
-                        {line}
-                      </p>
-                    ))}
+                    {item.lines.map((line) =>
+                      item.href ? (
+                        <a key={line} href={item.href} className="text-sm text-foreground/80 leading-snug hover:text-primary transition-colors block">
+                          {line}
+                        </a>
+                      ) : (
+                        <p key={line} className="text-sm text-foreground/80 leading-snug">
+                          {line}
+                        </p>
+                      )
+                    )}
                   </div>
                 </div>
               ))}
+
+              {/* Social links */}
+              <div className="flex items-start gap-4">
+                <div className="w-11 h-11 flex items-center justify-center border border-border flex-shrink-0">
+                  <Instagram className="w-4 h-4 text-primary" strokeWidth={1.5} />
+                </div>
+                <div>
+                  <p className="text-xs tracking-[0.15em] uppercase text-foreground/50 mb-2">Redes sociales</p>
+                  <div className="flex gap-3">
+                    <Link
+                      href="https://instagram.com/yulicolors"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-1.5 text-sm text-foreground/80 hover:text-primary transition-colors"
+                    >
+                      <Instagram className="w-3.5 h-3.5" />
+                      @yulicolors
+                    </Link>
+                    <Link
+                      href="https://facebook.com/yulicolors"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-1.5 text-sm text-foreground/80 hover:text-primary transition-colors"
+                    >
+                      <Facebook className="w-3.5 h-3.5" />
+                      @yulicolors
+                    </Link>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
 
@@ -146,7 +187,7 @@ export function ContactSection() {
                     O si lo prefieres, escríbenos directamente por WhatsApp.
                   </p>
                   <Link
-                    href="https://wa.me/34912345678?text=Hola,%20acabo%20de%20enviar%20una%20solicitud%20de%20cita%20en%20YULI%20COLORS"
+                    href="https://wa.me/34622886878?text=Hola,%20acabo%20de%20enviar%20una%20solicitud%20de%20cita%20en%20YULI%20COLORS"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 text-xs tracking-[0.15em] uppercase text-primary hover:text-primary/80 transition-colors mt-2"

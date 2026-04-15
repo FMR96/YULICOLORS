@@ -37,9 +37,9 @@ export default function AvisoLegalPage() {
           items={[
             "Denominación social: YULI COLORS, S.L.",
             "CIF/NIF: B-XXXXXXXX",
-            "Domicilio social: Calle Elegancia 123, 28001 Madrid, España",
-            "Teléfono: +34 912 345 678",
-            "Correo electrónico: info@yulicolors.com",
+            "Domicilio social: Camas, Sevilla",
+            "Teléfono: +34 622 886 878",
+            "Correo electrónico: hola@yulicolors.es",
             "Sitio web: www.yulicolors.com",
           ]}
         />

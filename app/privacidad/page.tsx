@@ -40,8 +40,8 @@ export default function PrivacidadPage() {
           items={[
             "Identidad: YULI COLORS, S.L.",
             "CIF/NIF: B-XXXXXXXX",
-            "Domicilio: Calle Elegancia 123, 28001 Madrid, España",
-            "Teléfono: +34 912 345 678",
+            "Domicilio: Camas, Sevilla",
+            "Teléfono: +34 622 886 878",
             "Email de contacto: privacidad@yulicolors.com",
           ]}
         />
