@@ -40,7 +40,7 @@ export default function PrivacidadPage() {
           items={[
             "Identidad: YULI COLORS, S.L.",
             "CIF/NIF: B-XXXXXXXX",
-            "Domicilio: Camas, Sevilla",
+            "Domicilio: C. Turia, 30, 41900 Camas, Sevilla",
             "Teléfono: +34 622 886 878",
             "Email de contacto: privacidad@yulicolors.com",
           ]}

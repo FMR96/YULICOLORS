@@ -37,7 +37,7 @@ export default function AvisoLegalPage() {
           items={[
             "Denominación social: YULI COLORS, S.L.",
             "CIF/NIF: B-XXXXXXXX",
-            "Domicilio social: Camas, Sevilla",
+            "Domicilio social: C. Turia, 30, 41900 Camas, Sevilla",
             "Teléfono: +34 622 886 878",
             "Correo electrónico: hola@yulicolors.es",
             "Sitio web: www.yulicolors.com",

@@ -24,7 +24,7 @@ const contactInfo = [
   {
     icon: MapPin,
     label: "Ubicación",
-    lines: ["Camas, Sevilla"],
+    lines: ["C. Turia, 30", "41900 Camas, Sevilla"],
   },
   {
     icon: Clock,

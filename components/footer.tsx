@@ -111,7 +111,7 @@ export function Footer() {
               Contacto
             </h4>
             <div className="space-y-3 text-sm text-card/50">
-              <p>Camas, Sevilla</p>
+              <p>C. Turia, 30<br />41900 Camas, Sevilla</p>
               <p>Lun – Vie: 10:00 – 20:00<br />Sáb: 10:00 – 15:00</p>
               <a href="tel:+34622886878" className="hover:text-primary transition-colors block">
                 622 886 878
