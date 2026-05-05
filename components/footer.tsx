@@ -29,7 +29,7 @@ export function Footer() {
             {/* Social */}
             <div className="flex gap-3 mt-6">
               <Link
-                href="https://instagram.com/yulicolors"
+                href="https://www.instagram.com/yuli_colors/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 flex items-center justify-center border border-card/15 hover:border-primary hover:text-primary transition-all duration-300"

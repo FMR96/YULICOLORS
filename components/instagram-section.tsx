@@ -12,8 +12,8 @@ const instagramPosts = [
   { image: "/images/instagram-4.jpg", alt: "Interior del centro YULI COLORS" },
 ]
 
-const IG_HANDLE = "@yulicolors"
-const IG_URL = "https://instagram.com/yulicolors"
+const IG_HANDLE = "@yuli_colors"
+const IG_URL = "https://www.instagram.com/yuli_colors/"
 
 export function InstagramSection() {
   const { ref, isInView } = useInView({ threshold: 0.08 })

@@ -141,13 +141,13 @@ export function ContactSection() {
                   <p className="text-xs tracking-[0.15em] uppercase text-foreground/50 mb-2">Redes sociales</p>
                   <div className="flex gap-3">
                     <Link
-                      href="https://instagram.com/yulicolors"
+                      href="https://www.instagram.com/yuli_colors/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center gap-1.5 text-sm text-foreground/80 hover:text-primary transition-colors"
                     >
                       <Instagram className="w-3.5 h-3.5" />
-                      @yulicolors
+                      @yuli_colors
                     </Link>
                     <Link
                       href="https://facebook.com/yulicolors"
