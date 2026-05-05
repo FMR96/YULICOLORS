@@ -137,9 +137,23 @@ export function Footer() {
 
         {/* Bottom bar */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-card/30 text-xs tracking-wide">
-            © {new Date().getFullYear()} YULI COLORS. Todos los derechos reservados.
-          </p>
+          <div className="flex flex-col md:flex-row items-center gap-3">
+            <p className="text-card/30 text-xs tracking-wide">
+              © {new Date().getFullYear()} YULI COLORS. Todos los derechos reservados.
+            </p>
+            <span className="text-card/20 text-xs hidden md:block">·</span>
+            <p className="text-card/30 text-xs tracking-wide">
+              Marketing por:{" "}
+              <Link
+                href="https://www.drastika.es/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-primary/70 transition-colors"
+              >
+                DRSTK
+              </Link>
+            </p>
+          </div>
           <div className="flex gap-6">
             <Link href="/privacidad" className="text-card/30 hover:text-primary/70 transition-colors text-xs tracking-wide">
               Política de Privacidad
